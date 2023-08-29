@@ -1,0 +1,86 @@
+/* body which shows in the whole page */
+
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:200,900");
+body {
+  background-color: #1b3044;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("./image/wp3218772.webp");
+}
+
+/* container which shows in the button color*/
+
+#container {
+  color: #d7dfe4;
+}
+
+/* h1 show the geading of the webpage that is STOPWATCH */
+
+h1 {
+  color: rgb(20, 222, 13);
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+/* design in the hour minute and second hand */
+
+#time {
+  color: rgb(237, 6, 6);
+  width: 100%;
+  padding: 25px;
+  background-color: rgb(12, 11, 14);
+  border-radius: 50px;
+  border: 2px solid wheat;
+}
+
+/* digit size set and set weight */
+
+.digit {
+  font-size: 150px;
+  font-weight: bold;
+}
+
+.txt {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#btn-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* button styling */
+
+.btn {
+  padding: 7px 35px;
+  font-size: 20px;
+  margin: 0px 10px;
+  color: white;
+  border: 0px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/* adding background color to the three button */
+
+#start {
+  background-color: rgb(249, 4, 4);
+  background-image: url("./image/006.jpg");
+}
+
+#stop {
+  background-color: rgb(3, 217, 241);
+  background-image: url("./image/panda3.jpg");
+}
+
+#reset {
+  background-color: rgba(4, 234, 46, 0.721);
+  background-image: url(./image/pngtree-neon-background-for-music-party-image_576449.jpg);
+}
+
+/* new button */
